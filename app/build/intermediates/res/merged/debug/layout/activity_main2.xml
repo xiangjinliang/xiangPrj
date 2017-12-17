@@ -26,17 +26,37 @@
         android:text="返回"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button_back"
         android:layout_below="@+id/textView2"
         android:layout_toEndOf="@+id/textView2"
-        android:layout_marginTop="102dp"
-        android:id="@+id/button_back"/>
+        android:layout_marginStart="26dp"/>
 
     <Button
         android:text="baidu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button_back"
-        android:layout_alignStart="@+id/button_back"
-        android:layout_marginTop="69dp"
-        android:id="@+id/button_baidu"/>
+        android:layout_marginTop="11dp"
+        android:id="@+id/button_baidu"
+        android:layout_alignTop="@+id/button_back"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_baidu"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="44dp"
+        android:id="@+id/buttonWriteFile"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/buttonWriteFile"
+        android:layout_alignBottom="@+id/buttonWriteFile"
+        android:layout_toEndOf="@+id/textView2"/>
 </RelativeLayout>

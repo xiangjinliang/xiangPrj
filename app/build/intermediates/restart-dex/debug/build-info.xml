@@ -5,9 +5,9 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="6975584864314"
+    timestamp="88158561047089"
     token="2868810730632118064"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
@@ -22,16 +22,15 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="J:\wok\testAndroid\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
-
     <build
-        timestamp="427843284470540"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="86964501635497"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="J:\wok\testAndroid\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="88158561047089"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

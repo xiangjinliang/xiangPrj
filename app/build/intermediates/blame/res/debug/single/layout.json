@@ -136,6 +136,10 @@
         "source": "J:\\wok\\testAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
+        "merged": "J:\\wok\\testAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main4.xml",
+        "source": "J:\\wok\\testAndroid\\app\\src\\main\\res\\layout\\activity_main4.xml"
+    },
+    {
         "merged": "J:\\wok\\testAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "J:\\wok\\testAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
     },

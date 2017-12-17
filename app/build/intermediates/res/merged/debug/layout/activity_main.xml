@@ -19,27 +19,45 @@
         android:text="Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:id="@+id/button1"
         android:layout_below="@+id/textView"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="20dp"
-        android:layout_marginTop="52dp"
-        android:id="@+id/button1"/>
+        android:layout_toStartOf="@+id/button3"
+        android:layout_marginTop="17dp"/>
 
     <Button
         android:text="exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button2"
         android:layout_below="@+id/button1"
-        android:layout_alignStart="@+id/button1"
-        android:layout_marginTop="23dp"
-        android:id="@+id/button2"/>
+        android:layout_alignStart="@+id/button1"/>
 
     <Button
         android:text="switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="88dp"
-        android:id="@+id/button3"/>
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="91dp"/>
+
+    <Button
+        android:text="test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/testAction3"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button2"/>
+
+    <Button
+        android:text="test4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/testAction4"
+        android:layout_below="@+id/testAction3"
+        android:layout_alignStart="@+id/testAction3"
+        android:layout_marginTop="14dp"/>
 </RelativeLayout>

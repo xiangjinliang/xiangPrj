@@ -1,4 +1,4 @@
-#Wed Dec 13 22:15:20 CST 2017
+#Sun Dec 17 23:08:45 CST 2017
 base.0=J\:\\wok\\testAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7ab3fd4776fb6526528b91447aeb07db1443b219
 renamed.1=classes.dex
 renamed.0=classes2.dex
